@@ -26,8 +26,8 @@ An artist can, of course, have many paintings. Paintings can only be in one gall
 
 **ARTIST**
 
-  * `Artist.all`
-    * Returns an `array` of all the artists
+  <!-- * `Artist.all`
+    * Returns an `array` of all the artists -->
 
   * `Artist#paintings`
     * Returns an `array` all the paintings by an artist
@@ -44,21 +44,21 @@ An artist can, of course, have many paintings. Paintings can only be in one gall
   * `Artist.most_prolific`
     * Returns an `instance` of the artist with the highest amount of paintings per year of experience.
 
-  * `Artist#create_painting`
-    * Given the arguments of `title`, `price` and `gallery`, creates a new painting belonging to that artist
+  <!-- * `Artist#create_painting`
+    * Given the arguments of `title`, `price` and `gallery`, creates a new painting belonging to that artist -->
 
 **PAINTING**
 
-  * `Painting.all`
-    * Returns an `array` of all the paintings
+  <!-- * `Painting.all`
+    * Returns an `array` of all the paintings -->
 
-  * `Painting.total_price`
-    * Returns an `integer` that is the total price of all paintings
+  <!-- * `Painting.total_price`
+    * Returns an `integer` that is the total price of all paintings -->
 
 **GALLERY**
 
-  * `Gallery.all`
-    * Returns an `array` of all the galleries
+  <!-- * `Gallery.all`
+    * Returns an `array` of all the galleries -->
 
   * `Gallery#paintings`
     * Returns an `array` of all paintings in a gallery
